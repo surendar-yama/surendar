@@ -1,13 +1,13 @@
 {
   "name": "surendar",
   "colors": {
-    "editor.background": "#342949",
+    "editor.background": "#1e1e1e",
     "editor.foreground": "#eeffff",
-    "activityBarBadge.background": "#4aa93e",
+    "activityBarBadge.background": "#fecc1b",
     "sideBarTitle.foreground": "#bbbbbb",
-    "sideBar.background": "#2a213b",
-    "activityBar.background": "#342949",
-    "button.background": "#4aa93e"
+    "sideBar.background": "#1e1e1e",
+    "activityBar.background": "#1e1e1e",
+    "button.background": "#3992ff"
   },
   "tokenColors": [
     {
@@ -15,14 +15,14 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#546E7A"
+        "foreground": "#f197b1"
       }
     },
     {
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#388ef5"
       }
     },
     {
@@ -43,7 +43,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#fecc1b"
       }
     },
     {
@@ -63,7 +63,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#d83bd2"
       }
     },
     {
@@ -74,7 +74,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#fecc1b"
       }
     },
     {
@@ -87,14 +87,14 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#6bd968"
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#3992ff"
       }
     },
     {
@@ -132,7 +132,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#6bd968"
       }
     },
     {
@@ -169,7 +169,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#3992ff"
       }
     },
     {
@@ -213,7 +213,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#d83bd2"
       }
     },
     {
