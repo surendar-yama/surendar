@@ -1,0 +1,21 @@
+{
+    "name": "surendar",
+    "displayName": "surendar",
+    "description": "surendar",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "surendar",
+                "uiTheme": "vs-dark",
+                "path": "./themes/surendar-color-theme.json"
+            }
+        ]
+    }
+}
