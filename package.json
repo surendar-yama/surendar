@@ -1,21 +1,23 @@
 {
-    "name": "surendar",
-    "displayName": "surendar",
-    "description": "surendar",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.66.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "surendar",
-                "uiTheme": "vs-dark",
-                "path": "./themes/surendar-color-theme.json"
-            }
-        ]
-    }
+  "name": "surendar",
+  "publisher": "surendar-kalyanam",
+  "displayName": "surendar",
+  "description": "surendar vs code dark remix color code theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "surendar",
+        "uiTheme": "vs-dark",
+        "path": "./themes/surendar-color-theme.json"
+      }
+    ]
+  }
 }
