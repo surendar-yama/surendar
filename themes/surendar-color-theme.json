@@ -7,7 +7,12 @@
     "sideBarTitle.foreground": "#bbbbbb",
     "sideBar.background": "#1e1e1e",
     "activityBar.background": "#1e1e1e",
-    "button.background": "#3992ff"
+    "button.background": "#3992ff",
+    "dropdown.background": "#D83BD2",
+    "textLink.activeForeground": "#6BD968",
+    "toolbar.activeBackground": "#D83BD2",
+    "toolbar.hoverBackground": "#D83BD2",
+    "toolbar.hoverOutline": "#D83BD2"
   },
   "tokenColors": [
     {
@@ -63,7 +68,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#d83bd2"
+        "foreground": "#D83BD2"
       }
     },
     {
@@ -74,7 +79,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#fecc1b"
+        "foreground": "#6BD968"
       }
     },
     {
@@ -169,7 +174,8 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#3992ff"
+        "foreground": "#3992ff",
+        "fontStyle": "italic"
       }
     },
     {
@@ -548,6 +554,79 @@
       "scope": ["markup.table"],
       "settings": {
         "foreground": "#EEFFFF"
+      }
+    },
+
+    // Html
+    {
+      "name": "Html - Meta Tag",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+
+    // CSS File
+    {
+      "name": "CSS - Meta Selector",
+      "scope": ["source.css meta.selector.css"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+
+    {
+      "name": "CSS - Meta Selector",
+      "scope": ["source.css punctuation"],
+      "settings": {
+        "foreground": "#D83BD2"
+      }
+    },
+
+    {
+      "name": "CSS - Important tag",
+      "scope": ["source.css keyword.other.important.css"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+
+    {
+      "name": "CSS - import tag",
+      "scope": ["source.css meta.at-rule.header.css"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+
+    // Js file
+    {
+      "name": "JS- Object Property",
+      "scope": [
+        "source.js meta.object-literal.key.js",
+        "source.ts meta.object-literal.key.ts",
+        "source.ts meta.brace.round.ts",
+        "source.js meta.brace.round.js"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+
+    {
+      "name": "JS - asynce keyword",
+      "scope": ["source.js storage.modifier.async.js"],
+      "settings": {
+        "foreground": "#3defe9"
+      }
+    },
+
+    // Operator
+    {
+      "name": "Operator - dollar",
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "#6BD968"
       }
     }
   ]
