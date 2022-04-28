@@ -582,7 +582,6 @@
         "foreground": "#D83BD2"
       }
     },
-
     {
       "name": "CSS - Important tag",
       "scope": ["source.css keyword.other.important.css"],
@@ -590,7 +589,6 @@
         "foreground": "#FFCB6B"
       }
     },
-
     {
       "name": "CSS - import tag",
       "scope": ["source.css meta.at-rule.header.css"],
@@ -598,21 +596,19 @@
         "foreground": "#FFCB6B"
       }
     },
-
-    // Js file
     {
       "name": "JS- Object Property",
       "scope": [
         "source.js meta.object-literal.key.js",
         "source.ts meta.object-literal.key.ts",
         "source.ts meta.brace.round.ts",
+        "source.tsx meta.brace.round.tsx",
         "source.js meta.brace.round.js"
       ],
       "settings": {
         "foreground": "#C792EA"
       }
     },
-
     {
       "name": "JS - asynce keyword",
       "scope": ["source.js storage.modifier.async.js"],
@@ -620,13 +616,36 @@
         "foreground": "#3defe9"
       }
     },
-
-    // Operator
     {
       "name": "Operator - dollar",
-      "scope": ["punctuation"],
+      "scope": ["punctuation", "source.css meta.property-value.css"],
       "settings": {
         "foreground": "#6BD968"
+      }
+    },
+    {
+      "name": "Array - Brackets",
+      "scope": [
+        "source.tsx meta.array.literal.tsx",
+        "source.jsx meta.array.literal.jsx",
+        "source.js meta.array.literal.js",
+        "source.ts meta.array.literal.ts"
+      ],
+      "settings": {
+        "foreground": "#6BD968"
+      }
+    },
+    {
+      "name": "TypeScript - Type",
+      "scope": [
+        "source.ts support.type",
+        "source.tsx support.type",
+        "source.vue support.type",
+        "source.svelte support.type"
+      ],
+      "settings": {
+        "foreground": "#f44250",
+        "fontStyle": "italic"
       }
     }
   ]
