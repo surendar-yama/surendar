@@ -601,6 +601,8 @@
       "scope": [
         "source.js meta.object-literal.key.js",
         "source.ts meta.object-literal.key.ts",
+        "source.tsx meta.object-literal.key.tsx",
+        "source.jsx meta.object-literal.key.jsx",
         "source.ts meta.brace.round.ts",
         "source.tsx meta.brace.round.tsx",
         "source.js meta.brace.round.js"
@@ -646,6 +648,16 @@
       "settings": {
         "foreground": "#f44250",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Children in tsx and jsx",
+      "scope": [
+        "source.tsx meta.jsx.children.tsx",
+        "source.js meta.jsx.children.js"
+      ],
+      "settings": {
+        "foreground": "#f8f8f8"
       }
     }
   ]
