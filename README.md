@@ -7,25 +7,10 @@
 
  // @SurendarYama needed implement in Vs code Surendar Theme by default.
  
- 
- 
- 
    {
     "workbench.colorTheme": "surendar",
     "editor.fontFamily": "Operator Mono Lig",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "workbench.iconTheme": "eq-material-theme-icons-light",
-    "php.suggest.basic": false,
-    "php.validate.enable": false,
-    "emmet.excludeLanguages": [
-        "markdown",
-        "php"
-    ],
-    "workbench.startupEditor": "none",
-    "importCost.debug": true,
-    "importCost.fontStyle": "italic",
     "editor.fontLigatures": true,
-
     // @SurendarYama needed implement in Vs code Surendar Theme by default.
     "editor.tokenColorCustomizations": {
         "textMateRules": [
