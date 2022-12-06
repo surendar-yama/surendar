@@ -1,18 +1,35 @@
 {
   "name": "surendar",
   "colors": {
-    "editor.background": "#1e1e1e",
+    "editor.background": "#320d3e",
     "editor.foreground": "#eeffff",
     "activityBarBadge.background": "#fecc1b",
+    "statusBar.background":"#320d3e",
+    "sideBar.background":"#320d3e",
+    "titleBar.activeBackground":"#320d3e",
+    "tab.activeBackground": "#e52165",
+    "tab.inactiveBackground":"#320d3e",
+    "scrollbarSlider.background":"#fecc1b",
+    "scrollbarSlider.activeBackground":"#6BD968",
+    "scrollbarSlider.hoverBackground":"#D83BD2",
+    "scrollbar.shadow":"#3992ff",
+    "editorLineNumber.foreground":"#e52165",
+    "editorLineNumber.activeForeground": "#fecc1b",
+    
+    "editorSuggestWidget.background": "#e52165",
+    "editorSuggestWidget.selectedBackground": "#0d1137",
+    "editorSuggestWidget.highlightForeground": "#fecc1b",
     "sideBarTitle.foreground": "#bbbbbb",
-    "sideBar.background": "#1e1e1e",
-    "activityBar.background": "#1e1e1e",
-    "button.background": "#3992ff",
-    "dropdown.background": "#D83BD2",
+    "activityBar.background": "#320d3e",
+    "button.background": "#e52165",
+    "dropdown.background": "#e52165",
     "textLink.activeForeground": "#6BD968",
-    "toolbar.activeBackground": "#D83BD2",
-    "toolbar.hoverBackground": "#D83BD2",
-    "toolbar.hoverOutline": "#D83BD2"
+    "toolbar.activeBackground": "#e52165",
+    "toolbar.hoverBackground": "#e52165",
+    "toolbar.hoverOutline": "#e52165",
+    "menu.selectionBackground":"#320d3e",
+    "list.hoverBackground":"#e52165",
+    "list.hoverForeground":"#ffffff"
   },
   "tokenColors": [
     {
@@ -615,7 +632,7 @@
       "name": "JS - asynce keyword",
       "scope": ["source.js storage.modifier.async.js"],
       "settings": {
-        "foreground": "#3defe9"
+        "foreground": "#C792EA"
       }
     },
     {

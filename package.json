@@ -1,9 +1,9 @@
 {
-  "name": "surendar",
+  "name": "surendar-yama",
   "publisher": "surendar-kalyanam",
-  "displayName": "surendar",
-  "description": "surendar vs code dark remix color code theme",
-  "version": "0.0.5",
+  "displayName": "Surendar Yama",
+  "description": "Surendar Yama VS Code Theme",
+  "version": "0.0.8",
   "engines": {
     "vscode": "^1.66.0"
   },
