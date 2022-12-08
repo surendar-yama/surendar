@@ -3,9 +3,9 @@
 ## Please use [Operator mono lig](https://github.com/Bug0017/operator-mono-lig-1) font.
 
 
-![Screenshot](surendar-yama-ss-01.png)
+![Screenshot](https://bit.ly/3VEQ3Zu)
 
-![Screenshot](surendar-yama-ss-02.png)
+![Screenshot](https://bit.ly/3P6ZXka)
 
 
  

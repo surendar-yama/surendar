@@ -3,7 +3,8 @@
   "publisher": "surendar-kalyanam",
   "displayName": "Surendar Yama",
   "description": "Surendar Yama VS Code Theme",
-  "version": "0.0.8",
+  "version": "0.1.1",
+  "repository":"https://github.com/Bug0017/surendar",
   "engines": {
     "vscode": "^1.66.0"
   },
