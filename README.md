@@ -5,7 +5,5 @@
 
 ![Screenshot](https://bit.ly/3VEQ3Zu)
 
-![Screenshot](https://bit.ly/3P6ZXka)
-
 
  
